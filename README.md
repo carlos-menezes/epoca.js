@@ -21,14 +21,6 @@ let future = new Date(1564415200000) // 2019-07-29T15:46:40.000Z
 let relative = epoca.relativeDate(now, future) // "in 24 hours"
 ```
 
-## Running tests
-
-Install dev dependencies:
-
-```sh
-$ npm i -d
-```
-
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/carlos-menezes/epoca.js/issues)
