@@ -10,7 +10,7 @@ $ npm i epoca.js --save
 
 ## Usage
 ```js
-const Epoca = require('./index')
+const Epoca = require('epoca.js')
 const epoch = new Date() // Example: 2019-07-28T16:03:44.608Z
 const epochMs = epoch.getTime() // Current date in milliseconds.
 
