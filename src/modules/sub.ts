@@ -45,15 +45,6 @@ function subDays(timestamp: number, ammount: number): Date {
 }
 
 /**
- * This function subtracts months from a timestamp. This assumes every month has 30 days.
- * @param ammount Number of months to subtract from the timestamp.
- * @returns {Date} A new Date instance with the new timestamp.
- */
-function subMonths(timestamp: number, ammount: number): Date {
-  return this.subMilliseconds(timestamp, ammount * 2592000000);
-}
-
-/**
  * This function subtracts years from a timestamp.
  * @param ammount Number of years to subtract from the timestamp.
  * @returns {Date} A new Date instance with the new timestamp.

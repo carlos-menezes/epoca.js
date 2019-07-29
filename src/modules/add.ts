@@ -45,15 +45,6 @@ function addDays(timestamp: number, ammount: number): Date {
 }
 
 /**
- * This function adds months to a timestamp. This assumes every month has 30 days.
- * @param ammount Number of months to add to the timestamp.
- * @returns {Date} A new Date instance with the new timestamp.
- */
-function addMonths(timestamp: number, ammount: number): Date {
-  return this.addMilliseconds(timestamp, ammount * 2592000000);
-}
-
-/**
  * This function adds years to a timestamp.
  * @param ammount Number of years to add to the timestamp.
  * @returns {Date} A new Date instance with the new timestamp.
