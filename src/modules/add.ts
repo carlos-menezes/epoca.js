@@ -68,7 +68,6 @@ export {
   addHours,
   addMinutes,
   addDays,
-  addMonths,
   addYears,
   addLeapYears
 };

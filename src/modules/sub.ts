@@ -68,7 +68,6 @@ export {
   subMinutes,
   subHours,
   subDays,
-  subMonths,
   subYears,
   subLeapYears
 };
